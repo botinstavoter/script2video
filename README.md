@@ -57,7 +57,7 @@ For a fully-fledged movie script to video generator, more advanced techniques in
 
 ###################################
 Pseudocode for Animation/Game Engine
-python
+python{
 
 # Define the scene and characters
 scene = create_scene("Beautiful Garden", time_of_day="Day")
@@ -83,7 +83,7 @@ if visitor.position == (5, 10):
     gardener_greet(visitor)
 
 # Render the scene
-render(scene)
+render(scene)}
 ###################################
 
 
