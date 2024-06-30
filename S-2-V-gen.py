@@ -56,4 +56,3 @@ script = [
 
 output_video_path = 'output_video.mp4'
 generate_video_from_script(script, output_video_path)
-
