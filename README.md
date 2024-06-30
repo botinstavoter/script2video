@@ -12,7 +12,43 @@ Animate Characters: Use text-to-speech for dialogue and basic animations for cha
 Combine Elements into a Video: Assemble the scenes, dialogue, and animations into a coherent video.
 
 Below is an example in Python using basic libraries. This example assumes you have character images and background images ready:
+#################################################################################################################
 
+To create a conda environment for your Python script and install the necessary dependencies, follow these steps:
+
+Create a Conda Environment:
+Open your terminal or command prompt and execute the following command to create a new conda environment with Python 3.11:
+
+sh
+Copy code
+conda create -n script_to_video python=3.11
+Activate the Conda Environment:
+Activate the environment you just created:
+
+sh
+Copy code
+conda activate script_to_video
+Install Required Packages:
+Install the necessary libraries (opencv-python and pyttsx3) within this environment:
+
+sh
+Copy code
+conda install -c conda-forge opencv pyttsx3
+Save the Script:
+Save the provided Python script in a file, for example, script_to_video.py.
+
+Run the Script:
+Run your script within the activated conda environment:
+
+sh
+Copy code
+python script_to_video.py
+Here is the final script_to_video.py file with some minor improvements:
+
+python
+
+
+##################################################################################################################
 
 Install necessary libraries:
 
