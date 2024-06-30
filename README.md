@@ -17,47 +17,35 @@ Below is an example in Python using basic libraries. This example assumes you ha
 To create a conda environment for your Python script and install the necessary dependencies, follow these steps:
 
 Create a Conda Environment:
+
 Open your terminal or command prompt and execute the following command to create a new conda environment with Python 3.11:
 
-sh
-Copy code
-conda create -n script_to_video python=3.11
+**conda create -n script_to_video python=3.11**
+
 Activate the Conda Environment:
+
 Activate the environment you just created:
 
-sh
-Copy code
-conda activate script_to_video
+
+**conda activate script_to_video**
 Install Required Packages:
 Install the necessary libraries (opencv-python and pyttsx3) within this environment:
 
-sh
-Copy code
-conda install -c conda-forge opencv pyttsx3
+**pip install pyttsx3
+pip install opencv-python**
 Save the Script:
 Save the provided Python script in a file, for example, script_to_video.py.
 
 Run the Script:
 Run your script within the activated conda environment:
 
-sh
-Copy code
-python script_to_video.py
+**python script_to_video.py**
 Here is the final script_to_video.py file with some minor improvements:
 
 python
 
 
 ##################################################################################################################
-
-Install necessary libraries:
-
-pip install opencv-python pyttsx3
-Create the script-to-video generator:
-python
-
-Explanation:
-
 Text-to-Speech: Converts script dialogue to speech and saves it as an audio file.
 Video Generation: Combines background and character images, adds dialogue as speech, and writes frames to the video.
 Note:
